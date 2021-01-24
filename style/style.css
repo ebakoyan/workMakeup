@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: rgb(0, 0, 0,);
+}
+.menu ul img{
+    cursor: pointer;
+}
+.logo{
+    width: 50%;
+    height: 120px;
+    padding: 15px 1px 5px 0px;
+}
+.logo img{
+    width: 261px;
+    height: 102px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
+.menu{
+    width: 50%;
+    height: 110px;
+    display:flex;
+    align-items: center;
+}
+.menu ul li{
+    margin-right: 15px;
+    font-size: 18px;
+
+}
+.menu ul{
+    margin:0 auto;
+}
+.menu ul li:nth-child(6) a{
+    color:#ffe25b;
+}
+
+.light{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.htext{
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 120px;
+    align-items: center;
+}
+.htext h1{
+    font-size: 2.5rem;
+    margin: 40px 0;
+    text-align: center;
+    font-weight: 1000;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.htext p{
+    font-family: sans-serif;
+    line-height: 25px;
+    color: white !important;
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+}
+.readmore{
+    cursor:pointer;
+    width: 170px;
+    height: 60px;
+    margin: 20px auto;
+    border: 1px solid #ffe25b;
+    display:flex;
+}
+.readmore-text{
+    display: flex;
+    align-items: center;
+    width: 99px;
+    height: 60px;
+    background-color: transparent;
+}
+.readmore-text h2{
+    color:white;
+    font-size: 17px;
+    margin:0 auto;
+}
+.readmore-pointer{
+    width: 71px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    background-color: #ffe25b;
+}
+.readmore-pointer img{
+    width: 35px;
+    margin:0 auto;
+}
+.readmore-pointer:hover{
+    background-color:#f8cb04 ;
+}
+.slide1{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 225, 92,0.5);
+    top: 387px;
+    align-items: center;
+    display: flex;
+    margin-top:5px;
+}
+.slide2{
+    margin-bottom:5px;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 255, 255,0.5);
+}
+.slide1 h2, .slide2 h2{
+    font-weight: bolder;
+    margin:0 auto;
+    font-size: 30px;
+}
+.slide1:hover{
+    cursor: pointer;
+    background-color: rgb(255, 225, 92);
+}
+.slide2:hover{
+    cursor: pointer;
+    background-color: white;
+}
+/* ---------------------------------------------------- */
+/* Main */
+main{
+    margin-top:50px;
+    width: 100%;
+}
+/* About */
+.about{
+    width: 100%;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.photo{
+    width: 50%;
+}
+.about-text{
+    text-align: end;
+    width: 35%;
+}
+.about .photo img{
+    width: 491px;
+    height: 326px;
+}
+.about-text h1{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+span{
+    text-decoration: underline #ffe25b;
+}
+.about-text h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about-text p{
+    text-align: right;
+}
+.about-text .readmore .readmore-pointer img{
+    width: 35px;
+    margin:0 auto;
+}
+.readmore-text h2{
+font-size: 17px;
+margin:0 auto;
+color: black;
+}
+.about-text .readmore{
+    position: absolute;
+    right: 15%;
+}
+/* ------------------------ */
+/* Our Services */
+.service{
+    margin-top: 60px ;
+    width: 100%;
+}
+.service h1{
+    margin-left: 7.5%;
+}
+.service-container{
+    display: flex;
+    width: 85%;
+    margin:60px auto;
+
+}
+.service-container .s{
+    width: 33%;
+    margin-right: 40px;
+}
+.s img{
+    width: 350px;
+    height: 300px;
+}
+.service-container  .s p,.service-container  .s h2{
+    margin-top:30px ;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+main .service .readmore{
+    position: absolute;
+    right: 7.5%;
+    margin: 0 !important;
+}
+.s h2:hover{
+    color: #ffe25b;
+    cursor: pointer;
+}
+/* -------------------------------- */
+/* Recent Projects */
+.rc{
+    margin-top:200px;
+    margin-left: 7.5%;
+    font-size: 2em;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.recent{
+    margin-top:40px;
+    width: 100%;
+    height: 600px;
+    background-color: #151201;
+}
+.recent .recent-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.r{
+    margin-top: 80px;
+    width: 350px;
+    margin-right: 40px;
+    z-index: 1000;
+}
+.r img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.recent3{
+    margin-right: 0;
+}
+.recent2{
+    margin-top:180px;
+}
+.r img:hover{
+    cursor: pointer;
+    opacity: 0.2;
+    transition: 1s;
+}
+.r-text{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-color: yellow;
+    z-index: -1;
+    border-radius: 10px;
+}
+.r-text p{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ----------------------- */
+/* Get in touch */
+.get{
+    margin-top:150px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.get .get-form{
+    width: 50%;
+    height: 100%;
+    background-color: #ffe25b;
+}
+.get .map{
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.get .get-form form input{
+    display: flex;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin:20px auto;
+}
+.get .get-form form textarea{
+    width: 70%;
+    height: 100px;
+    resize: none;
+    margin-left: 15%;
+}
+main .get .get-form form input:last-child{
+    background-color: #fcfcfc;
+    border: none;
+    display: block;
+    font-weight: bold;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 15%;
+    font-weight: 900;
+}
+/* ------------------------- */
+/* Testimonial */
+#testi{
+    text-align: center;
+    margin-left:0;
+}
+.testimonial{
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+.testimonial .testi img{
+    width: 130px;
+    height: 124px;
+}
+.testimonial .testi {
+    display: flex;
+}
+.testimonial .testi1{
+    margin-left: 350px;
+}
+.testimonial .testi2{
+    margin-top:40px;
+    margin-left:200px;
+}
+.testimonial .testi .testi-text{
+    width: 40%;
+    margin-left: 20px;
+    color: white;
+}
+.testimonial .testi .testi-text h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+/*-------------------- */
+/* footer */
+/* Footer nav */
+footer{
+    color: white;
+    width: 100%;
+    padding: 5% 10% 10px 10%;
+    background-color: #1b1b1a;
+}
+.footer-nav{
+    display: flex;
+}
+
+.footer-nav .footer-nav-contact{
+    margin-left:10px;
+    width: 100%;
+    height: 102px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-around;
+}
+#adress::before{
+    background-image: url(./img/download.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+#phone::before{
+    background-image: url(./img/phone.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+#mail::before{
+    background-image: url(./img/mail.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    margin-right: 5px;
+}
+/* ------- */
+/* footer-about */
+.footer-about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+.footer-about .footer-about-size{
+    width: 20%;
+}
+.footer-about .about-factory p{
+    margin-top:40px;
+}
+.footer-about .about-menu h2 {
+    text-align: center;
+}
+.footer-about .about-menu ul {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.footer-about .about-menu ul li{
+    list-style: none;
+    margin: 10px auto;
+}
+.footer-about .about-menu ul li:hover{
+    color:yellow;
+    cursor: pointer;
+}
+.footer-about .about-menu ul li::before{
+    content: "► ";
+    color: yellow;
+}
+.footer-about .about-our-network ul{
+    margin-left:40px;
+}
+#email-footer{
+    border-radius: 5px;
+    border:none;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+}
+.about-factory-mail h2{
+    text-align: center;
+}
+.about-factory-mail input[type="text"]{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.about-factory-mail input[type="submit"]{
+    border: none;
+    background-color: #ffe25b;
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+}
+.about-factory-mail input[type="submit"]:hover{
+    background-color: #fdd72d;
+    cursor: pointer;
+}
+.footer-logos{
+    width: 100%;
+    height: 60px;
+}
+.footer-logos img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin:0 20px;
+    border-radius: 10%;
+    background-color: beige;
+}
+.footer-logos img:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+#right{
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid;
+    font-size: 20px;
+}
